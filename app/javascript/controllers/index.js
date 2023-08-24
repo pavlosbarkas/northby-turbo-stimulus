@@ -7,5 +7,8 @@ import { application } from "./application"
 import CssController from "./css_controller"
 application.register("css", CssController)
 
+import SearchController from "./search_controller"
+application.register("search", SearchController)
+
 import TextController from "./text_controller"
 application.register("text", TextController)
