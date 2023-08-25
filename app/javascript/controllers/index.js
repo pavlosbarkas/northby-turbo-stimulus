@@ -4,11 +4,17 @@
 
 import { application } from "./application"
 
+import ConcertController from "./concert_controller"
+application.register("concert", ConcertController)
+
 import CssController from "./css_controller"
 application.register("css", CssController)
 
 import SearchController from "./search_controller"
 application.register("search", SearchController)
+
+import SoldOutDataController from "./sold_out_data_controller"
+application.register("sold-out-data", SoldOutDataController)
 
 import TextController from "./text_controller"
 application.register("text", TextController)

@@ -38,3 +38,5 @@
 
 # Ignore RubyMine Files
 .idea
+
+.log*
